@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Opponent Character -->
+    <div>
+        <h3>Opp Char</h3>
+        <img src="./asset/h.png" width="70px" height="70px">
+        <div class="health-bar">
+            <div id="opp-health-bar"></div>
+            <div id="opp-health-text">Health: 100%</div>
+            
+        </div>
+     
+    </div>
+
+    <!-- Game Container -->
+    <div class="game-container">
+        <div class="note-lane" id="lane1"><h3>A</h3></div>
+        <div class="note-lane" id="lane2"><h3>S</h3></div>
+        <div class="note-lane" id="lane3"><h3>D</h3></div>
+        <div class="note-lane" id="lane4"><h3>J</h3></div>
+        <div class="note-lane" id="lane5"><h3>K</h3></div>
+        <div class="note-lane" id="lane6"><h3>L</h3></div>
+    </div>
+
+    <!-- Player Character -->
+    <div>
+        <img id="player-character" src="./asset/hh.png" width="90px" height="90px">
+        <h3>Main Char</h3>
+        <div class="health-bar">
+            <div id="player-health-bar"></div>
+            <div id="player-health-text">Health: 100%</div>
+        </div>
+     
+    </div>
+
+    <!-- Skor dan Fase -->
+    <div class="score-board">
+        <p>Fase: <span id="fase">Bertahan</span></p>
+    </div>
+
+    <!-- Game Over Message -->
+    <div id="game-over" style="display:none;">
+        <h2 id="game-over-message"></h2>
+    </div>
+    <div class="score-board">
+   
+
+<div id="game-over" style="display: none;">
+    <h1 id="game-over-message"></h1>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
