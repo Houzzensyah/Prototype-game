@@ -128,3 +128,11 @@ body {
 h3 {
     text-align: center;
 }
+
+
+#player-health-text, #opp-health-text {
+    position: absolute;
+    padding-left: 50px;
+    color: white;
+    
+}

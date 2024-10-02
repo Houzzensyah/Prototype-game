@@ -83,6 +83,9 @@ function createNoteForLane(lane) {
     });
 }
 
+const healthPlayer = document.getElementById('player-health-text');
+
+
 // Kontrol karakter di fase bertahan dan menyerang
 document.addEventListener('keydown', (event) => {
     if (fase === 'bertahan') {
